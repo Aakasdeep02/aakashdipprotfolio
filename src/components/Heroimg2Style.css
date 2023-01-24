@@ -1,0 +1,45 @@
+.hero-img {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.hero-img .projectimg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+.hero-img .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.hero-img .content h1 {
+    font-size: 2.1rem;
+}
+
+.hero-img .content p {
+    font-size: 1.4rem;
+    color: #00c5c8;
+}
+@media screen and (min-width: 1020px) {
+    .hero-img{
+    height: 70vh;
+    }    
+    
+}
+
+@media  screen and (max-width: 640px) {
+    .hero-img .content h1 {
+        font-size: 2rem;
+    }
+    
+}

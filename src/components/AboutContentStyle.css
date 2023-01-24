@@ -1,0 +1,36 @@
+.about {
+    width: 100%;
+    height: 100%;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.about-heading h1 {
+    font-size: 2.5rem;
+}
+
+.about .content{
+    padding: 1rem;
+    max-width: 900px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 21, 0.8);
+}
+
+.content p{
+    font-size: 1.5rem;
+    color: #00c5c8;
+}
+
+@media screen and (max-width: 950px) {
+   .content p {
+       font-size: 1rem; 
+   }
+
+   .about .content{
+    max-width: 600px;
+}
+    
+}
