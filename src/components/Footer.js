@@ -1,7 +1,7 @@
 import "./FooterStyle.css";
 
 import React from 'react'
-import { FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaPhone, FaMailBulk, FaLinkedin } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import { NavLink } from "react-router-dom";
 
@@ -24,13 +24,7 @@ const Footer = () => {
             aakashdipmeghwal02@gmail.com </h4>
         </div>
         <div className="social">
-          <NavLink to="url.com">
-            <FaFacebook size={20} style={{
-              color: "#fff",
-              marginRight: "1rem"
-            }} />
-          </NavLink>
-          <a href="url.com">
+          <a href="https://www.upwork.com/freelancers/~01d54dbb420136beef">
             <SiUpwork size={20} style={{
               color: "#fff",
               marginRight: "1rem"
