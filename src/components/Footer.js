@@ -30,12 +30,12 @@ const Footer = () => {
               marginRight: "1rem"
             }} />
           </NavLink>
-          <NavLink to="url.com">
+          <a href="url.com">
             <SiUpwork size={20} style={{
               color: "#fff",
               marginRight: "1rem"
             }} />
-          </NavLink>
+          </a>
           <a href="https://www.linkedin.com/in/aakasdeep-meghwal-2b799b202">
             <FaLinkedin size={20} style={{
               color: "#fff",
