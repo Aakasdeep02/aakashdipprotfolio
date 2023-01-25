@@ -2,6 +2,7 @@ import "./FooterStyle.css";
 
 import React from 'react'
 import { FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { SiUpwork } from "react-icons/si";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
@@ -30,7 +31,7 @@ const Footer = () => {
             }} />
           </NavLink>
           <NavLink to="url.com">
-            <FaTwitter size={20} style={{
+            <SiUpwork size={20} style={{
               color: "#fff",
               marginRight: "1rem"
             }} />
