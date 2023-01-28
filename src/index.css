@@ -49,7 +49,7 @@ ul{
   cursor: pointer;
 }
 
-.pro-btn {
+.pro-btn:hover {
   background: rgb(255, 90, 96);
   color:#222;
   transition: 0.35;
