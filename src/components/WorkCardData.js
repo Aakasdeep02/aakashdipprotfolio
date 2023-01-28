@@ -1,4 +1,5 @@
 import pro1 from "../assets/project1.png"
+import pro2 from "../assets/ajio.png"
 
 
 const ProjectCardData = [
@@ -9,7 +10,7 @@ const ProjectCardData = [
         view: "https://drive.google.com/drive/folders/15bkmrbvu9ErRWvusA9s3QM7kCpDpmpvP?usp=share_link",
     },
     {
-        imgsrc: pro1,
+        imgsrc: pro2,
         title: "Ajio Clone",
         text: "This a clone of E-commerce website AJIO. I have use HTML and CSS.(I HAVE JUST MADE THE FROTEND OF WEBSITE, IT IS NOT INTERACTIVE AND OPEN IN DESKTOP. CLICK VIEW BUTTON FOR WEBSITE)",
         view: "https://ajio-clone-aakasdeep.netlify.app/",

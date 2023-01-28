@@ -3,7 +3,7 @@ import "./FooterStyle.css";
 import React from 'react'
 import { FaPhone, FaMailBulk, FaLinkedin } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
-import { NavLink } from "react-router-dom";
+import { AiFillGithub} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -32,6 +32,12 @@ const Footer = () => {
           </a>
           <a href="https://www.linkedin.com/in/aakasdeep-meghwal-2b799b202">
             <FaLinkedin size={20} style={{
+              color: "#fff",
+              marginRight: "1rem"
+            }} />
+          </a>  
+          <a href="https://github.com/Aakasdeep02">
+            <AiFillGithub size={20} style={{
               color: "#fff",
               marginRight: "1rem"
             }} />
