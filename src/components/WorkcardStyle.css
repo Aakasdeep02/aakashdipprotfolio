@@ -39,7 +39,7 @@
     padding: 0.5rem 0;
 }
 
-.pro-btn .btn{
+.pro-btns .pro-btn{
     padding: 0.5rem 1rem;
 }
 @media screen and (max-width: 1180px) {
