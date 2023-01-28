@@ -43,7 +43,7 @@ ul{
   font-size: 1rem;
   text-transform: uppercase;
   background: rgba(255, 255, 255, 0.2);
-  color: rgb(255, 90, 96);
+  color: #fff;
   border: 1px solid #fff;
   font-size: 600;
   cursor: pointer;
@@ -51,6 +51,6 @@ ul{
 
 .pro-btn {
   background: rgb(255, 90, 96);
-  color: rgba(255, 255, 255, 0.2);
+  color:#222;
   transition: 0.35;
 }
