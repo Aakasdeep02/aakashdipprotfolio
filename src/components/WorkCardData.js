@@ -1,5 +1,6 @@
 import pro1 from "../assets/project1.png"
 import pro2 from "../assets/ajio.png"
+import pro3 from "../assets/Student_Manage.png"
 
 
 const ProjectCardData = [
@@ -16,10 +17,10 @@ const ProjectCardData = [
         view: "https://ajio-clone-aakasdeep.netlify.app/",
     },
     {
-        imgsrc: pro1,
-        title: "E-Commerce Website",
-        text: "E-commerce (electronic commerce) is the buying and selling of goods and services,or the transmitting of funds or data, over an electronic network, primarily the internet. These business transactions occur either as business-to-business (B2B) business-to-consumer (B2C), consumer-to-consumer or consumer-to-business.",
-        view: "url.com",
+        imgsrc: pro3,
+        title: "Student_Management_Website",
+        text: "Student Management Website is built using Spring Tool Suite as IDE and also use Java, Hibernate, Lombok, Bootstrap, Thmyleaf etc... (CLICK VIEW BUTTON FOR SOURCE CODE).",  
+        view: "https://github.com/Aakasdeep02/Student-Management-Website",
     },
 ]
 
